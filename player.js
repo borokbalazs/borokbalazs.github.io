@@ -95,7 +95,7 @@ function onGround(){
     return true;
   }
 }
-function touchStarted(){
+function mousePressed(){
     vel=-18;
 }
 function reset(){
