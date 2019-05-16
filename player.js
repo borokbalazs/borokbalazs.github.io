@@ -95,8 +95,9 @@ function onGround(){
     return true;
   }
 }
-function mousePressed(){
-    vel=-18;
+function keyPressed(){
+  if(keyCode==38){
+    vel=-18;}
 }
 function reset(){
   score=0;
