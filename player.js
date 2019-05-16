@@ -96,7 +96,7 @@ function onGround(){
   }
 }
 function keyPressed(){
-  if(keyCode==38){
+  if(key==" "){
     vel=-18;}
 }
 function reset(){
