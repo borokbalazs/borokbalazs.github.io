@@ -1,0 +1,65 @@
+@font-face{
+	font-family: 'Press Start 2P', cursive;
+}
+#home_text{
+	display: none;
+	position:absolute;
+	text-align: center;
+	vertical-align: middle;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	color:black;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	border:5px;
+	border-radius: 100px;
+	padding:50px;
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+body{
+	margin:0;
+	padding:0;
+	height:100vh;
+}
+.navbar{
+	border-top:white 2px solid;
+	background-color: black;
+	display: none;
+	
+}
+.nav-link{
+	color:white;
+	text-decoration:none;
+}
+.show .navbar-text{
+	border-top: solid white 2px;
+}
+.navbar-toggler{
+	height:75px;
+	width:75px;
+}
+.show{
+	font-size: 40px;
+}
+.collapsing{
+	font-size: 40px;
+}
+.show .nav-item{
+	padding-bottom:20px;
+}
+.collapsing .nav-item{
+	padding-bottom:20px;
+}
+.navbar-toggler{
+	float:right;
+}
